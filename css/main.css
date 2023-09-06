@@ -2,12 +2,13 @@
 // css variables
 // ==================================== */
 
-:root {
-}
-
 /* ====================================
 // reset rules
 // ==================================== */
+
+:root {
+  --font-size-p: 16px;
+}
 
 * {
   box-sizing: border-box;
@@ -26,10 +27,48 @@ body {
 
   font-size: 1rem;
   line-height: 1.5rem;
+  max-width: 414px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
   color: inherit;
+}
+
+header a {
+  font-size: var(--font-size-p);
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+header p,
+main p {
+  font-size: var(--font-size-p);
+}
+
+.informations-projet {
+  font-size: 12px;
+}
+
+.ancre-projets {
+  font-size: 12px;
+}
+
+.architects {
+  font-size: 12px;
+}
+
+.sources {
+  font-size: 10px;
+}
+
+.sources h4 {
+  font-weight: 400;
 }
 
 img,
