@@ -93,14 +93,21 @@ main p {
   padding: 15px 0 25px 0;
 }
 
+footer {
+  color: #fff;
+  background-color: #000;
+  padding: 30px 0 35px 8px;
 }
 
 .architects {
   font-size: 12px;
+  line-height: normal;
+  padding-bottom: 22px;
 }
 
 .sources {
   font-size: 10px;
+  line-height: normal;
 }
 
 .sources h4 {
