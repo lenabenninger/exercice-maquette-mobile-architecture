@@ -63,12 +63,36 @@ main p {
   font-size: var(--font-size-p);
 }
 
-.informations-projet {
-  font-size: 12px;
+.project-description {
+  padding: 45px 77px 45px 7px;
 }
 
-.ancre-projets {
+.informations-projet {
   font-size: 12px;
+  padding-left: 8px;
+  padding-bottom: 25px;
+  line-height: normal;
+}
+
+.informations-projet h3 {
+  padding-bottom: 2px;
+}
+
+.informations-projet p {
+  padding-bottom: 15px;
+}
+
+.informations-projet a {
+  font-size: var(--font-size-p);
+}
+
+.back-projects {
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.2;
+  padding: 15px 0 25px 0;
+}
+
 }
 
 .architects {
